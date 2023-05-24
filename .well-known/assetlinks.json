@@ -1,1 +1,5 @@
-[]
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target" : { "namespace": "android_app", "package_name": "com.mercurycards.android.cardapp.stg",
+               "sha256_cert_fingerprints": ["4B:30:B5:37:A3:6C:A1:86:61:35:CA:5A:6F:9D:41:51:F4:22:8D:E6:5D:FC:80:6E:41:B9:43:BE:A1:1A:3B:0C"] }
+}]
