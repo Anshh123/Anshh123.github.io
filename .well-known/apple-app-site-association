@@ -1,21 +1,25 @@
 {
-  "applinks": {
-    "details": [
-      {
-        "appIDs": [
-          "JVSN22JM65.com.mercurycards.ios.cardapp.stg"
-        ],
-        "components": [
-          {
-            "/": "*"
-          }
+    "applinks": {
+        "details": [
+            {
+                "appIDs": [
+                    "JVSN22JM65.com.mercurycards.ios.cardapp.stg"
+                ],
+                "components": [
+                    {
+                        "/": "*"
+                    },
+                    {
+                        "/": "/amazon/*",
+                        "comment": "Matches any URL with a path that starts with /buy/."
+                    }
+                ]
+            }
         ]
-      }
-    ]
-  },
-  "webcredentials": {
-    "apps": [
-      "JVSN22JM65.com.mercurycards.ios.cardapp.stg"
-    ]
-  }
+    },
+    "webcredentials": {
+        "apps": [
+            "JVSN22JM65.com.mercurycards.ios.cardapp.stg"
+        ]
+    }
 }
