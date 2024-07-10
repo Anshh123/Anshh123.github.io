@@ -9,7 +9,7 @@
                     {
                         "/": "/amazon/*",
                         "exclude": true,
-                        "comment": "Matches any URL with a path that starts with /help/website/ and instructs the system not to open it as a universal link."
+                        "comment": "Mny URL with a path that starts with /help/website/ and instructs the system not to open it as a universal link."
                     },
                     {
                         "/": "/cdn/*"
