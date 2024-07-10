@@ -7,7 +7,7 @@
                 ],
                 "components": [
                     {
-                        "/": "/amazon/*"
+                        "/": "/cdn/*"
                     }
                 ]
             }
