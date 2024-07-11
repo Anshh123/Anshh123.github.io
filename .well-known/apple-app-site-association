@@ -7,7 +7,7 @@
                 ],
                 "components": [
                     {
-                        "#": "/manage/pull/*"
+                        "#": "/amazon/pull/*"
                     },
                     {
                         "#": "/manage/wallet/amazon/*"
