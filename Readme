@@ -1,1 +1,30 @@
-
+//working code for universal and non universal links
+{
+    "applinks": {
+        "details": [
+            {
+                "appIDs": [
+                    "JVSN22JM65.com.mercurycards.ios.cardapp.stg"
+                ],
+                "components": [
+                    {
+                        "/": "/cdn/*",
+                        "exclude": true,
+                        "comment": "Mny URL with a path that starts with /help/website/ and instructs the system not to open it as a universal link."
+                    },
+                    {
+                        "#": "/manage/*"
+                    }
+                ],
+                "paths": [
+                    "NOT /cdn/*"
+                ]
+            }
+        ]
+    },
+    "webcredentials": {
+        "apps": [
+            "JVSN22JM65.com.mercurycards.ios.cardapp.stg"
+        ]
+    }
+}
