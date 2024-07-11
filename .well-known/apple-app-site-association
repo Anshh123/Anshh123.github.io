@@ -7,16 +7,16 @@
                 ],
                 "components": [
                     {
-                        "/": "/amazon/*",
+                        "/": "/cdn/*",
                         "exclude": true,
                         "comment": "Mny URL with a path that starts with /help/website/ and instructs the system not to open it as a universal link."
                     },
                     {
-                        "/": "/cdn/*"
+                        "/": "/cards/#/manage/*"
                     }
                 ],
                 "paths": [
-                    "NOT /amazon/*"
+                    "NOT /cdn/*"
                 ]
             }
         ]
