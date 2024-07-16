@@ -7,10 +7,10 @@
                 ],
                 "components": [
                     {
-                        "#": "/amazon/pull/*"
+                        "#": "/amazon/pull?*"
                     },
                     {
-                        "#": "/manage/wallet/amazon/*"
+                        "#": "/manage/wallet/*"
                     }
                 ]
             }
